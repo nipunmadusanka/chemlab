@@ -9,7 +9,7 @@
     @include('libraries.styles')
 </head>
 <body>
-    
+@auth
     @include('components.mainnav')
     @include('components.nav')
 
@@ -17,5 +17,8 @@
     @yield('content')
 
     @include('libraries.scripts')
+ @else 
+ you are not allowed to access
+ @endauth
 </body>
 </html>

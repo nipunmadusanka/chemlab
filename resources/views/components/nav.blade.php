@@ -11,7 +11,7 @@
                 <div class="main-menu-header">
                  
                     <div class="user-details">
-                        <div id="more-details">Admin<i class="fa fa-chevron-down m-l-5"></i></div>
+                        <div id="more-details">{{  auth()->user()->name }}<i class="fa fa-chevron-down m-l-5"></i></div>
                     </div>
                 </div>
                 <div class="collapse" id="nav-user-link">
