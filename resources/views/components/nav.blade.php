@@ -1,8 +1,6 @@
 <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
 <!-- vendor css -->
-<link rel="stylesheet" href="assets/css/style.css">
-
 <nav class="pcoded-navbar  ">
     <div class="navbar-wrapper  ">
         <div class="navbar-content scroll-div " >
@@ -31,7 +29,7 @@
                     <a href="{{ route('homePage') }}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
                 </li>
                 <li class="nav-item pcoded-hasmenu">
-                    <a href="{{ route('productPage') }}" class="nav-link " ><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext" >Products</span></a>
+                    <a href="{{ route('viewproducts') }}" class="nav-link " ><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext" >Products</span></a>
                 </li>
                 <li class="nav-item pcoded-hasmenu">
                     <a href="{{ route('locationPage') }}" class="nav-link " ><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext" >Locations</span></a>
@@ -44,6 +42,9 @@
                 </li>
                 <li class="nav-item pcoded-hasmenu">
                     <a href="{{ route('gdnPage') }}" class="nav-link " ><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext" >GDN</span></a>
+                </li>
+                <li class="nav-item pcoded-hasmenu">
+                    <a href="{{ route('registration') }}" class="nav-link " ><span class="pcoded-micon"><i class="feather icon-layout"></i></span><span class="pcoded-mtext" >Add New User</span></a>
                 </li>
 
 

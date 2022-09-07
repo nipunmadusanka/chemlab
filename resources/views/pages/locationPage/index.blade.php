@@ -31,7 +31,6 @@
       
       <div class="card-body">
           <h5>Manage Locations</h5>
-          <hr>
       </div>
       <div class="card-body">
         <form>

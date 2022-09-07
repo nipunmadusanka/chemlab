@@ -33,7 +33,7 @@
           <h5>Manage Products</h5>
           <hr>
       </div>
-          <div class="card-body"
+          <div class="card-body">
                   <form>
                     <div class="row">
                         <div class="col-md-6">

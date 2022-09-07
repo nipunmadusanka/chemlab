@@ -13,6 +13,9 @@ class LoginController extends Controller
     //validate_login
     public function index()
     {
+        if (Auth::check()) {
+            return redirect('/dashboard');
+        }
         return view('pages.login.index');
     }
     // public function validate_login(Request $request)
@@ -50,6 +53,6 @@ class LoginController extends Controller
             return redirect('/dashboard');
         }
 
-        return redirect('/')->with('success', 'Login details are not valid');
+        return redirect('/')->with('success', 'Your Login details are not Valid');
     }
 }

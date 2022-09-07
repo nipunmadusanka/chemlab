@@ -33,45 +33,53 @@
       <div class="card-body">
           <h5>Manage GRN</h5>
           <hr>
-          <div class="row">
-              <div class="col-md-6">
+          
+                <div class="card-body">
                   <form>
-                      <div class="form-group">
-                          <label>Suppliers ID</label>
-                          <select class="mb-3 form-control">
-                            <option>Default select</option>
-                        </select>
-                      </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Suppliers ID</label>
+                                <select class="mb-3 form-control">
+                                <option>Default select</option>
+                                </select>
+                            </div>
+                        </div>
 
-                      <div class="form-group">
-                        <label>User ID</label>
-                        <select class="mb-3 form-control">
-                          <option>Default select</option>
-                      </select>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>User ID</label>
+                                <select class="mb-3 form-control">
+                                <option>Default select</option>
+                                </select>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Location ID</label>
+                                <select class="mb-3 form-control">
+                                <option>Default select</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="form-group">
-                        <label>Location ID</label>
-                        <select class="mb-3 form-control">
-                          <option>Default select</option>
-                      </select>
-                    </div>
-
+                <div class="col-sm-12">
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Note</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Add Note Here"></textarea>
                     </div>
-                      
-
-                      
-
+                    
                       <button type="submit" class="btn  btn-primary">Add GRN</button>
                   </form>
-              </div>
-              
-              </div>
+              </div> 
+            </div>
           </div>
-
+        </div>
+        
 
     
 @endsection

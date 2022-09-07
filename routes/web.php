@@ -29,10 +29,13 @@ Route::get('/logout', [LogoutControler::class, "index"])->name('logout');
 
 // Route::get('/', [HomeController::class, "index"])->name('homePage');
 
-Route::get('/registration', [RegisterController::class, "index"])->name('home');
+Route::get('/registration', [RegisterController::class, "index"])->name('registration');
 Route::post('/registration', [RegisterController::class, "user_registration"])->name('user_registration');
 
+// Defoult ::
+
 Route::get('/productPage', [ProductController::class, "index"])->name('productPage');
+Route::get('/viewProducts', [ProductController::class, "viewproducts"])->name('viewproducts');
 
 Route::get('/locationPage', [LocationController::class, "index"])->name('locationPage');
 

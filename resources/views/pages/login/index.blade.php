@@ -4,13 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Register New User</title>
-
-    @include('libraries.styles')
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-
 @if($message = Session::get('success'))
 
 <div class="alert alert-info">
@@ -18,7 +15,8 @@
 </div>
 
 @endif
-	{{-- <div class="auth-content text-center">
+<div class="auth-wrapper">
+	<div class="auth-content text-center">
 		<div class="card borderless">
 			<div class="row align-items-center ">
 				<div class="col-md-12">
@@ -51,10 +49,11 @@
 				</div>
 			</div>
 		</div>
-	</div> --}}
+	</div>
+</div>
 
 
-    <div class="container">
+    {{-- <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <div class="login-panel panel panel-default">
@@ -106,8 +105,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-@include('libraries.scripts')
+    </div> --}}
 </body>
 </html>

@@ -1,14 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Register New User</title>
+@extends('layouts.app')
 
-    @include('libraries.styles')
-</head>
-<body>
+@section('content')
+
+<div class="pcoded-main-container">
+    <div class="pcoded-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+            <div class="page-block">
+                <div class="row align-items-center">
+                    <div class="col-md-12">
+                        <div class="page-header-title">
+                            <h5 class="m-b-10">Add New User</h5>
+                        </div>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href={{ route('homePage') }}><i class="feather icon-home"></i></a></li>
+                            <li class="breadcrumb-item"><a href="#!">Add New User</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 <div class="auth-wrapper">
 	<div class="auth-content text-center">
@@ -48,8 +59,7 @@
 		</div>
 	</div>
 </div>
+</div>
+</div>
 
-
-    @include('libraries.scripts')
-</body>
-</html>
+@endsection

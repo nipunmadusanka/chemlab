@@ -10,4 +10,8 @@ class ProductController extends Controller
     {
         return view('pages.productPage.index');
     }
+    public function viewproducts()
+    {
+        return view('pages.productPage.viewProducts');
+    }
 }

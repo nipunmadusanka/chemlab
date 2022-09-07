@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 
     @include('libraries.styles')
 </head>
@@ -18,7 +19,7 @@
 
     @include('libraries.scripts')
  @else 
- you are not allowed to access
+ you are not allowed to access, please login
  @endauth
 </body>
 </html>
